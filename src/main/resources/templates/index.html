@@ -2,10 +2,10 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>Recipe Application</title>
+    <title th:text="#{recipeApp}"></title>
 </head>
 <body>
-<h1>My Recipes!</h1>
+<h1 th:text="#{myRecipes}"></h1>
 <p th:text="#{shareRecipes}"></p>
 <div class="row">
     <div class="col-md-12">
